@@ -13,6 +13,7 @@ int main() {
     scanf("%f", &raio);
 
     volume = 4/3*pi*raio;
+    //Função "pow()" retorna o primeiro valor elevado pelo segundo. Biblioteca math.h
     area = 4*pi*pow(raio, 2);
 
     printf("Volume: %.2lf\nArea: %.2lf", volume, area);

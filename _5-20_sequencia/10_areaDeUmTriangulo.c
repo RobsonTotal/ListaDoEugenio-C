@@ -18,6 +18,7 @@ int main() {
     scanf("%d %d %d", &s1, &s2, &s3);
 
     t = (float)(s1 + s2 + s3)/2;
+    //Função "sqrt()" retorna a raiz quadrada do dado valor. Biblioteca math.h
     area = sqrt(2*(t - s1)*(t - s2)*(t - s3));
 
     printf("A area do triangulo equivale a: %.2lf", area);
